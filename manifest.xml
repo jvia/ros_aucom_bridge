@@ -1,19 +1,23 @@
 <package>
   <description brief="ros_aucom_detector">
 
-     ros_aucom_detector
+    ros_aucom_detector
 
   </description>
   <author>Jeremiah Via</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/ros_aucom_detector</url>
-  <depend package="rosjava"/>
+  <!--<depend package="rosjava"/>-->
+  <depend package="rospy"/>
   <depend package="std_msgs"/>
   <depend package="sensor_msgs"/>
   <depend package="geometry_msgs"/>
   <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="p2os_driver"/>
+  <depend package="joy"/>
+  <depend package="roslisp_runtime"/>
+  <!-- <depend package="roslisp_common"/> -->
 
 </package>
-
-
