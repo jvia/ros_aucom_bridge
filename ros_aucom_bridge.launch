@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ros_aucom_bridge" type="skimmer.py" name="skimmer"  output="screen">
+    <param name="topics" type="double" textfile="$(find ros_aucom_bridge)/topics.txt"/>
+  </node>
+</launch>
