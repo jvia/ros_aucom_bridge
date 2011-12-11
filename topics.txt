@@ -1,4 +1,4 @@
 /cmd_vel     geometry_msgs/Twist
 /joy         sensor_msgs/Joy
 /tf          tf/tfMessage
-/oga         booga/cooga
+/base_scan   sensor_msgs/LaserScan
